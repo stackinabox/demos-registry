@@ -1,16 +1,16 @@
 [
   {
-    "name": "JKE Banking Full Stack Deployment",
+    "name": "Full Stack Deployment",
     "install": "docker run --rm stackinabox/demo-jke:1.1",
     "description": "Sample JKE Banking full-stack deployment demonstation",
     "img": "https://developer.ibm.com/urbancode/wp-content/uploads/sites/16/2016/10/blueprint_designer.png",
     "docs": "https://github.com/stackinabox/stackinabox.io/wiki/JKE-Banking-Full-Stack-Deployment"
   },
   {
-    "name": "JKE Banking Docker Deployment Pipeline",
+    "name": "Docker Deployment Pipeline",
     "install": "docker run --rm -v /vagrant/compose:/compose -v /var/run/docker.sock:/var/run/docker.sock stackinabox/demo-docker:dev",
     "description": "Sample docker deployment pipeline demonstration",
     "img": "https://image.slidesharecdn.com/urbancode-deploy-and-docker-containers-connect-the-dots-150701131459-lva1-app6892/95/urbancode-deploy-and-docker-containers-connect-the-dots-10-638.jpg?cb=1435756717",
-    "docs": "https://github.com/stackinabox/docker-demo-docker"
+    "docs": "https://github.com/stackinabox/docker-demo-docker/wiki/Docker-Demo-for-Stackinabox.io"
   }
 ]
